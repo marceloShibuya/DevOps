@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+	font-family: arial, sans-serif;
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+	}
+
+div#interface {
+	width: 1380px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 30px 10px 10px 10px;
+}
+
+header#cabecalho img#icone_2 {
+	position: absolute;
+	left: 1190px;
+	top: 50px;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 50px;
+	top: -20px;
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 110px;
+}
+
+header#cabecalho h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15pt;
+	color: #888888;
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+
+p {
+	font-family: 'FonteLogo', sans-serif;
+	text-align: justify;
+}
+
+/* Formatação da foto */
+
+
+figure.foto-legenda{
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption{
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+/*  Formatação do Menu*/
+
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -10px;
+	left:300px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: #ffff00;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: #ffff00;
+	color: #ffffff;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	color: #ffff;
+}
+
+.login__content {
+	margin-left: 890px;
+	margin-top: -25px;
+	display: block;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.login__title {
+	margin-top: -20px;
+	margin-left: 600px;
+}
+
+input#cpf {
+	border-style: solid;
+	border-color: #ffff00;
+	box-shadow: 1px 1px 4px black;
+}
+
+input#senha {
+	border-style: solid;
+	border-color: #ffff00;
+	box-shadow: 1px 1px 4px black;
+}
+
+.btn-full {
+	background-color: #ffff00;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 4px black;
+}
+
+span{
+	color:white;
+}
+
+/* Formatação da Section */
+
+section#corpo {
+	display: block;
+	width: 1000px;
+	margin: auto;
+}
+
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+	background-color: #ffff00;
+}
+
+footer#rodape p{
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
